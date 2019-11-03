@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Do"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="18dp"
+        android:textSize="16sp"
+        android:textColor="@color/grey"/>
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_add"
+        android:background="@drawable/ic_add_task_bg"
+        android:layout_gravity="center_horizontal"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerviewToday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:textSize="16sp"
+        android:textColor="@color/grey"/>
+    <ImageView
+        android:layout_marginLeft="14dp"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_nodata"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/dark">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tasky"
+        android:textSize="24dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="42dp"
+        android:textColor="#fff"/>
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_tasky_logo"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dokmeha"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dokmeha"
+        android:orientation="vertical"
+        android:id="@+id/posht">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="14dp"
+            android:id="@+id/dokmeha">
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:layout_weight="3">
+
+                </FrameLayout>
+            <Button
+                android:id="@+id/circle1"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/dayere"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="7dp"/>
+            <Button
+                android:id="@+id/circle2"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/dayere"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="7dp"/>
+            <Button
+                android:id="@+id/circle3"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/dayere"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="7dp"/>
+            <Button
+                android:id="@+id/circle4"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/dayere"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="7dp"/>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="ClickNumber"
+                android:background="@null"
+                android:text="1"
+                android:textColor="#fff"
+                android:textSize="24dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="ClickNumber"
+                android:text="2"
+                android:textColor="#fff"
+                android:textSize="24dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="ClickNumber"
+                android:text="3"
+                android:textColor="#fff"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="ClickNumber"
+                android:text="4"
+                android:textColor="#fff"
+                android:textSize="24dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="ClickNumber"
+                android:text="5"
+                android:textColor="#fff"
+                android:textSize="24dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="ClickNumber"
+                android:text="6"
+                android:textColor="#fff"
+                android:textSize="24dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="ClickNumber"
+                android:text="7"
+                android:textColor="#fff"
+                android:textSize="24dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="ClickNumber"
+                android:text="8"
+                android:textColor="#fff"
+                android:textSize="24dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="ClickNumber"
+                android:text="9"
+                android:textColor="#fff"
+                android:textSize="24dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="24dp"
+                android:textColor="#fff"
+                android:background="@null"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="ClickNumber"
+                android:text="0"
+                android:textColor="#fff"
+                android:textSize="24dp"/>
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="Clickbackspace">
+                <Button
+                    android:layout_width="48dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_backspace_arrow"
+                    android:onClick="Clickbackspace"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
